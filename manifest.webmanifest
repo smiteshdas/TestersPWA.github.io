@@ -1,7 +1,6 @@
 {
   "background_color": "#fff",
   "description": "Shows random fox pictures. Hey, at least it isn't cats.",
-  "theme_color":"#fff",
   "display": "standalone",
   "icons": [
     {
@@ -12,5 +11,5 @@
   ],
   "name": "Awesome fox pictures",
   "short_name": "Foxes",
-  "start_url": "/index.html"
+  "start_url": "/"
 }
