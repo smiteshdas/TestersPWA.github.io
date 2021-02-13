@@ -1,7 +1,8 @@
 {
-  "background_color": "purple",
+  "background_color": "#fff",
   "description": "Shows random fox pictures. Hey, at least it isn't cats.",
-  "display": "fullscreen",
+  "theme_color":"transparent",
+  "display": "standalone",
   "icons": [
     {
       "src": "icons-192.png",
