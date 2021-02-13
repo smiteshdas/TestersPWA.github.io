@@ -12,5 +12,6 @@
   ],
   "name": "Awesome fox pictures",
   "short_name": "Foxes",
-  "start_url": "/"
+  "start_url": "/",
+  "scope": "/"
 }
