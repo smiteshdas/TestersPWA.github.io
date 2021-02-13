@@ -3,7 +3,7 @@ self.addEventListener('install', (e) => {
     caches.open('fox-store').then((cache) => cache.addAll([
       '/',
       '/index.html',
-      '/index.js'
+      '/config.js'
     ])),
   );
 });
