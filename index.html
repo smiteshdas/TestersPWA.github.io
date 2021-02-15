@@ -13,10 +13,13 @@
 <a href="https://uxdesign.cc/a-mini-guide-to-microcopy-55496469f03b?source=topic_page---------6------------------1----------">Link</a>
     
 <button class="add-button">Add to home screen</button>
-<a href="https://medium.com/design-bootcamp/21-lesser-known-ux-processes-that-you-can-explore-in-2021-d4564c6a80a7">Link 2</a>
+<a href="https://medium.com/design-bootcamp/21-lesser-known-ux-processes-that-you-can-explore-in-2021-d4564c6a80a7"> Link 2</a>
 <p id="dis"></p>
 
 <script>
+let tle;
+let txt;
+let ur;
 window.addEventListener('DOMContentLoaded', () => {
   const parsedUrl = new URL(window.location);
   // searchParams.get() will properly handle decoding the values.
@@ -24,11 +27,11 @@ window.addEventListener('DOMContentLoaded', () => {
   console.log('Text shared: ' + parsedUrl.searchParams.get('text'));
   console.log('URL shared: ' + parsedUrl.searchParams.get('url'));
 
-let tle = parsedUrl.searchParams.get('title');
-let txt = parsedUrl.searchParams.get('text');
-let ur = parsedUrl.searchParams.get('url');
+ tle = parsedUrl.searchParams.get('title');
+ txt = parsedUrl.searchParams.get('text');
+ ur = parsedUrl.searchParams.get('url');
 
-document.getElementById('dis').innerHTML = tle + ur + txt;
+document.getElementById('dis').innerHTML = tle + txt + ur ;
 
 });
 
