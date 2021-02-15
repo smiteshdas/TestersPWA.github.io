@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
-    Hello world
+    Hello World
 <a href="https://uxdesign.cc/a-mini-guide-to-microcopy-55496469f03b?source=topic_page---------6------------------1----------">Link</a>
     <button class="add-button">Add to home screen</button>
 
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
   console.log('Text shared: ' + parsedUrl.searchParams.get('text'));
   console.log('URL shared: ' + parsedUrl.searchParams.get('url'));
 
-document.getElementById("dis").innerHTML = " " + parsedUrl.searchParams.get('title') + " ";
+document.getElementById("dis").innerHTML = " " + parsedUrl.searchParams.get('title') + parsedUrl.searchParams.get('url') + parsedUrl.searchParams.get('text') + " ";
 </script> 
 
 </body>
