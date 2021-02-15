@@ -19,7 +19,7 @@
   "method": "GET",
   "params": {
     "title": "title",
-    "text": "description",
+    "text": "text",
     "url": "url"
   }
 }
