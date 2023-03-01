@@ -12,8 +12,8 @@
   ],
   "name": "Awesome fox pictures",
   "short_name": "Foxes",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "https://m.youtube.com/",
+  "scope": "https://m.youtube.com/",
   "share_target": {
   "action": "/index.html",
   "method": "GET",
